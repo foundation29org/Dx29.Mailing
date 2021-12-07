@@ -1,0 +1,22 @@
+{
+    "AllKeys_NotRequireds":{
+        "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
+        "status": 400,
+        "title": "Bad Request"
+    },
+    "AllKeys_butRequiredsBadFields":{
+        "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
+        "status": 400,
+        "title": "Bad Request"
+    },
+    "AllKeys_butInaccessibleUrlAttachment":{
+        "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
+        "status": 400,
+        "title": "Cannot read property 'content' of null"
+    },
+    "AllKeys_butIncorrectUrlAttachment":{
+        "type": "https://tools.ietf.org/html/rfc7231#section-6.5.4",
+        "status": 400,
+        "title": "Unable to determine the domain name"
+    }
+}

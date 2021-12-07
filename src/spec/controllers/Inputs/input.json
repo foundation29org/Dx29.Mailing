@@ -1,0 +1,35 @@
+{
+    "allKeys": {
+        "body": "Javi, <strong>and easy to do anywhere, even with Node.js</strong>",
+        "query":{
+            "From": "dev@foundation29.org",
+            "To": "javier.logrono@foundation29.org",
+            "CC": "marta.herrantz@foundation29.org",
+            "BCC": "support@foundation29.org",
+            "Subject": "Sending with SendGrid is Fun",
+            "ReplyTo": "javier.logrono@foundation29.org"
+        },
+        "headers":{
+            "dx-attachments": "https://dx29dev.blob.core.windows.net/mailings/sample.txt?sp=rl&st=2021-04-19T14:21:42Z&se=2022-04-20T14:21:00Z&sv=2020-02-10&sr=c&sig=os5AcvHwnA8O6AzW6UzNnajupysenSBInT%2BbPww2x6A%3D,https://dx29dev.blob.core.windows.net/mailings/errores.docx?sp=rl&st=2021-04-19T14:21:42Z&se=2022-04-20T14:21:00Z&sv=2020-02-10&sr=c&sig=os5AcvHwnA8O6AzW6UzNnajupysenSBInT%2BbPww2x6A%3D,https://dx29dev.blob.core.windows.net/mailings/tabaco.png?sp=rl&st=2021-04-19T14:21:42Z&se=2022-04-20T14:21:00Z&sv=2020-02-10&sr=c&sig=os5AcvHwnA8O6AzW6UzNnajupysenSBInT%2BbPww2x6A%3D"
+        }
+    },
+    "withoutAttachments": {
+        "body": "Javi, <strong>and easy to do anywhere, even with Node.js</strong>",
+        "query":{
+            "From": "dev@foundation29.org",
+            "To": "javier.logrono@foundation29.org",
+            "CC": "",
+            "BCC": "",
+            "Subject": "Sending with SendGrid is Fun",
+            "ReplyTo": "javier.logrono@foundation29.org"
+        }
+    },
+    "onlyRequired": {
+        "body": "Javi, <strong>and easy to do anywhere, even with Node.js</strong>",
+        "query":{
+            "From": "dev@foundation29.org",
+            "To": "javier.logrono@foundation29.org",
+            "Subject": "Sending with SendGrid is Fun"
+        }
+    }
+}

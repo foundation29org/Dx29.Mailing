@@ -1,0 +1,14 @@
+{
+    "allKeys": {
+        "status": 202,
+        "title": "Sent"
+    },
+    "withoutAttachments": {
+        "status": 202,
+        "title": "Sent"
+    },
+    "onlyRequired": {
+        "status": 202,
+        "title": "Sent"
+    }
+}

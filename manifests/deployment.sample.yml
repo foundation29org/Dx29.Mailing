@@ -1,0 +1,31 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: <deployment_name>
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: <deployment_name>
+  template:
+    metadata:
+      labels:
+        app: <deployment_name>
+    spec:
+      containers:
+        - name: <deployment_name>
+          image: <acr_server>/dx29-mailing
+          ports:
+          - containerPort: 8080
+          resources:
+            requests:
+              cpu: 0.23
+              memory: "128Mi"
+          volumeMounts:
+          - name: secrets
+            mountPath: /usr/src/app/secrets
+            readOnly: true
+      volumes:
+      - name: secrets
+        secret:
+          secretName: secret-appsettings

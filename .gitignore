@@ -1,0 +1,9 @@
+# Dependency directories
+src/node_modules/
+
+# IDE - VSCode
+src/.vscode/*
+.vscode/*
+
+# secrets
+src/secrets/*

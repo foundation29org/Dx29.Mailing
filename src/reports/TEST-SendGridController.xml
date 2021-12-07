@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="[SendGrid Controller]" errors="0" tests="0" failures="0" time="0" timestamp="2021-04-23T11:23:17">
+</testsuite>
+<testsuite name="[SendGrid Controller].[launch function]" errors="0" tests="0" failures="0" time="0" timestamp="2021-04-23T11:23:17">
+</testsuite>
+<testsuite name="[SendGrid Controller].[launch function].[Correct values]" errors="0" tests="0" failures="0" time="0" timestamp="2021-04-23T11:23:16">
+</testsuite>
+<testsuite name="[SendGrid Controller].[launch function].[Error values]" errors="0" tests="4" failures="0" time="1.17" timestamp="2021-04-23T11:23:16">
+  <testcase classname="[SendGrid Controller].[launch function].[Error values]" name="Calcule score with no genes key input" time="0.498"></testcase>
+  <testcase classname="[SendGrid Controller].[launch function].[Error values]" name="Calcule score with no symptoms key input" time="0.146"></testcase>
+  <testcase classname="[SendGrid Controller].[launch function].[Error values]" name="Calcule score with no key input" time="0.509"></testcase>
+  <testcase classname="[SendGrid Controller].[launch function].[Error values]" name="Calcule score with genes no name key input" time="0.011"></testcase>
+</testsuite>
+</testsuites>
