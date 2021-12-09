@@ -18,7 +18,7 @@ It is used in the [Dx29 application](https://dx29.ai/) and therefore how to inte
 It is programmed in NodeJS, and the structure of the project is as follows:
 
 >- src folder which contains the source code of the project.  
->>- The controllers folder contains the functionality to work with the previous method.
+>>- The controllers folder contains the functionality to expose the methods.
 >>- In the routes folder, all the routes of the API appear. It contains the file index.js that links with the controllers, defining the requests that will be available to the external clients.
 >>- In the services folder the functionality is implemented.
 >>- Some files:
@@ -63,7 +63,7 @@ The latest release of the project deployed in the [Dx29 application](https://dx2
 
 **Send email**: This method is the one that performs the function of sending an email.
 >- POST request
->- URL: ``` http://localhost/api/sendEmail?params={ To: <destination address, From: <request address>, Subject: <subject of the email>, 
+>- URL: ``` http://localhost:8080/api/sendEmail?params={ To: <destination address, From: <request address>, Subject: <subject of the email>, 
 CC: <copy>, BCC: <blid copy>, ReplyTo: <To whom the email can be replied to> } ``` (\*CC, BCC and ReplyTo are optional)
 >- Atachments are added in the header of the request: dx-attachments header.
 >- POST body: Html content of the email
